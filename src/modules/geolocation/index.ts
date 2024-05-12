@@ -27,7 +27,7 @@ export class GeolocationModule implements IGeolocationModule {
   ): Promise<string | undefined> => {
     try {
       const response = await axios.get(
-        `https://maps.googleapis.com/maps/api/geocode/json?latlng=${coords.latitude},${coords.longitude}&key=AIzaSyBmdTvd2t5k3y55bEG_YkaR6yVj5npdwXs&language=en`,
+        `https://maps.googleapis.com/maps/api/geocode/json?latlng=${coords.latitude},${coords.longitude}&key=${key}&language=en`,
       );
 
       return response.data.results[0].formatted_address;

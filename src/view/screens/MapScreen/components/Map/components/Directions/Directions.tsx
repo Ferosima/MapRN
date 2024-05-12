@@ -21,7 +21,7 @@ const Directions = (): React.ReactElement | null => {
         longitude: wayState.points.end.longitude,
       }}
       optimizeWaypoints={true}
-      apikey={'AIzaSyBmdTvd2t5k3y55bEG_YkaR6yVj5npdwXs'}
+      apikey={key}
       strokeColor="hotpink"
       strokeColors={['hotpink', 'yellow']}
       strokeWidth={4}

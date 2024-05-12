@@ -7,7 +7,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-  [GMSServices provideAPIKey:@"AIzaSyBmdTvd2t5k3y55bEG_YkaR6yVj5npdwXs"];
+  [GMSServices provideAPIKey:@""];
   self.moduleName = @"MapRN";
   // You can add your custom initial props in the dictionary below.
   // They will be passed down to the ViewController used by React Native.
