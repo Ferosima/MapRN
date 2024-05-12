@@ -1,17 +1,26 @@
 #import "AppDelegate.h"
-
+#import <GoogleMaps/GoogleMaps.h>
 #import <React/RCTBundleURLProvider.h>
+#import "RNSplashScreen.h" 
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+  [GMSServices provideAPIKey:@""];
   self.moduleName = @"MapRN";
   // You can add your custom initial props in the dictionary below.
   // They will be passed down to the ViewController used by React Native.
   self.initialProps = @{};
+ 
+  [super application:application didFinishLaunchingWithOptions:launchOptions];
 
-  return [super application:application didFinishLaunchingWithOptions:launchOptions];
+  [RNSplashScreen show];
+
+
+  return YES;
+
+
 }
 
 - (NSURL *)sourceURLForBridge:(RCTBridge *)bridge

@@ -1,0 +1,1 @@
+export { HapticModule } from "./module";
