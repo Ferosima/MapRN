@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`hash should always generate same hash string 1`] = `"-735355204"`;

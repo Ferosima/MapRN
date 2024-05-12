@@ -1,0 +1,205 @@
+@font-face {
+    font-family: "Icons";
+    src: url("./Icons.ttf?678fe15b6fe879c8c14b1fb2aff4483f") format("truetype");
+}
+
+i[class^="icon-"]:before, i[class*=" icon-"]:before {
+    font-family: Icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Wallet:before {
+    content: "\f101";
+}
+.icon-User:before {
+    content: "\f102";
+}
+.icon-Undo:before {
+    content: "\f103";
+}
+.icon-TrashFull:before {
+    content: "\f104";
+}
+.icon-TrashEmpty:before {
+    content: "\f105";
+}
+.icon-TicketVoucher:before {
+    content: "\f106";
+}
+.icon-Terminal:before {
+    content: "\f107";
+}
+.icon-Star:before {
+    content: "\f108";
+}
+.icon-SpinnerThin:before {
+    content: "\f109";
+}
+.icon-Spinner:before {
+    content: "\f10a";
+}
+.icon-Sorting:before {
+    content: "\f10b";
+}
+.icon-Slider:before {
+    content: "\f10c";
+}
+.icon-ShoppingCart:before {
+    content: "\f10d";
+}
+.icon-Share:before {
+    content: "\f10e";
+}
+.icon-Settings:before {
+    content: "\f10f";
+}
+.icon-SearchMagnifyingGlass:before {
+    content: "\f110";
+}
+.icon-Plus:before {
+    content: "\f111";
+}
+.icon-Phone:before {
+    content: "\f112";
+}
+.icon-PaperPlane:before {
+    content: "\f113";
+}
+.icon-Pack:before {
+    content: "\f114";
+}
+.icon-OnMap:before {
+    content: "\f115";
+}
+.icon-MoreVertical:before {
+    content: "\f116";
+}
+.icon-MoreHorizontal:before {
+    content: "\f117";
+}
+.icon-Money:before {
+    content: "\f118";
+}
+.icon-Minus:before {
+    content: "\f119";
+}
+.icon-MapPinOutlined:before {
+    content: "\f11a";
+}
+.icon-MapPin:before {
+    content: "\f11b";
+}
+.icon-Map:before {
+    content: "\f11c";
+}
+.icon-Location:before {
+    content: "\f11d";
+}
+.icon-Loader:before {
+    content: "\f11e";
+}
+.icon-Link:before {
+    content: "\f11f";
+}
+.icon-Information:before {
+    content: "\f120";
+}
+.icon-House:before {
+    content: "\f121";
+}
+.icon-Heart:before {
+    content: "\f122";
+}
+.icon-Handbag:before {
+    content: "\f123";
+}
+.icon-HamburgerMD:before {
+    content: "\f124";
+}
+.icon-Gift:before {
+    content: "\f125";
+}
+.icon-Flag:before {
+    content: "\f126";
+}
+.icon-FilterOff:before {
+    content: "\f127";
+}
+.icon-Filter:before {
+    content: "\f128";
+}
+.icon-Exit:before {
+    content: "\f129";
+}
+.icon-EditPencil:before {
+    content: "\f12a";
+}
+.icon-Cutlery:before {
+    content: "\f12b";
+}
+.icon-Copy:before {
+    content: "\f12c";
+}
+.icon-Cook:before {
+    content: "\f12d";
+}
+.icon-CloseMD:before {
+    content: "\f12e";
+}
+.icon-CloseFilled:before {
+    content: "\f12f";
+}
+.icon-Clock:before {
+    content: "\f130";
+}
+.icon-ChevronUp:before {
+    content: "\f131";
+}
+.icon-ChevronRight:before {
+    content: "\f132";
+}
+.icon-ChevronLeft:before {
+    content: "\f133";
+}
+.icon-ChevronDown:before {
+    content: "\f134";
+}
+.icon-CheckBig:before {
+    content: "\f135";
+}
+.icon-Check:before {
+    content: "\f136";
+}
+.icon-Chat:before {
+    content: "\f137";
+}
+.icon-Card:before {
+    content: "\f138";
+}
+.icon-Car:before {
+    content: "\f139";
+}
+.icon-CalendarDays:before {
+    content: "\f13a";
+}
+.icon-BigMoney:before {
+    content: "\f13b";
+}
+.icon-Bell:before {
+    content: "\f13c";
+}
+.icon-ArrowLeftLG:before {
+    content: "\f13d";
+}
+.icon-ApplePayAlt:before {
+    content: "\f13e";
+}
+.icon-ApplePay:before {
+    content: "\f13f";
+}

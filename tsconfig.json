@@ -1,3 +1,38 @@
 {
-  "extends": "@react-native/typescript-config/tsconfig.json"
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "jsx": "react-native",
+    "checkJs": true,
+    "module": "es2020",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "sourceMap": true,
+    "target": "esnext",
+    "lib": ["esnext", "dom"],
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "useDefineForClassFields": true,
+    "removeComments": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "isolatedModules": false,
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "~assets/*": ["./assets/*"],
+      "~domain/*": ["src/domain/*"],
+      "~view/*": ["src/view/*"],
+      "~modules/*": ["src/modules/*"]
+    }
+  },
+  "exclude": ["node_modules"]
 }
